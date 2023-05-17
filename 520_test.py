@@ -25,23 +25,23 @@ def split_up_interval(minimum, maximum, n_splits=10):
 
 
 import matplotlib
-import matplotlib.pyplot as plt # plt is the interface for creating and customizing plots, 
+import matplotlib.pyplot as plt 
 #plt.hist (df["sepal_length"],bins=split_up_interval(1, 10, 1))
 plt.hist (df["sepal_length"])
 plt.xlabel("Sepal Length")
 plt.ylabel("Number of flowers")
 
 import matplotlib
-import matplotlib.pyplot as plt # plt is the interface for creating and customizing plots, 
+import matplotlib.pyplot as plt
 plt.hist (df["sepal_length"],bins=split_up_interval(1, 10, 30))
 #plt.hist (df["sepal_length"])
 plt.xlabel("Sepal Length")
 plt.ylabel("Number of flowers")
 #split_up_interval(1, 10, 200)
 #plt.hist (df["sepal_length"])
-#plt.hist(cardio_df["serum_cholesterol_mg_dl"], bins=split_up_interval(120, 570, 20), cumulative=False)
 
-plt.hist(df["serum_cholesterol_mg_dl"], bins=split_up_interval(120, 570, 100))
+
+
 
 split_up_interval(1, 10, 10)
 
